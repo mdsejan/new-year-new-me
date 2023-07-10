@@ -7,6 +7,20 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+h1{
+    margin-bottom: 20px;
+    color:#151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
 .banner-container{
     margin: 0 auto;
     height: 85vh;
@@ -23,21 +37,81 @@
 }
 
 .banner-content h1{
+    color: #FFF;
     font-size: 65px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
-.banner-content p{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    margin-bottom: 20px;
-}
+
 
 .banner-content button{
     padding: 15px 30px;
     border: 0;
     border-radius: 5px;
     font-size: 18px;
+    cursor: pointer;
+}
+
+
+/* Failure section style */
+
+.failure-container{
+    height: 100vh;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.failure-container .box1 img{
+    width: 451px;
+}
+
+
+
+.failure-container .box2 p{
+    color: #444343;
+}
+
+.failure-container .box2 ul li{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Myplan section style */
+
+.plan-container{
+    padding: 50px 0;
+}
+.plan-heading h1{
+    text-align: center;
+}
+
+.plan-content{
+    padding: 100px 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.planbox{
+    text-align: center;
+}
+
+.planbox img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.planbox h1{
+    font-size: 30px;
+}
+.planbox p{
+    color:#737272;
+    font-size: 20px;
+    font-weight: 500;
 }
